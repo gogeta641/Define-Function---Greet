@@ -23,3 +23,6 @@ def greet_with(name, location):
   print(f"How is the weather today in {location}?")
 
 greet_with("Jack Bauer", "Nowhere")
+
+#Functions with keyword arguments
+greet_with(location = "Nowhere", name = "Jack Bauer")
